@@ -1,0 +1,26 @@
+h1, h3{ 
+    color: rgb(25, 0, 255);
+}
+
+.black-border {
+    border: 5px solid black;
+    width: 300px;
+}
+
+.rcorners2 {
+    border-radius: 15px 50px 30px;
+    background: #a3f3ef;
+    padding: 20px;
+    width: 250px;
+    height: 60px;
+  }
+
+  .rcorners3 {
+    border-radius: 15px 50px 30px;
+    background: #a3f3ef;
+    padding: 20px;
+    width: 250px;
+    height: 350px;
+  }
+
+  .other { font-family: fantasy; }

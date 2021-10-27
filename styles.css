@@ -26,11 +26,11 @@
   display: inline;
 }
 
-@media screen and (min-width: 320px) {
+@media (min-width: 320px) {
 
 }
 
-@media screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
   .nice-looking {
     background-color: rgb(95, 106, 109)
   }

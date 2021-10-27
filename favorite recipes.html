@@ -5,58 +5,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chef recipes</title>
+    <title>Subscribe</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 
 </head>
 
-<body>
-    <h1>Send your favorite recipes</h1>
-    <h4>Click here to go back to <a href="index.html">Index page</a></h4>
-    <form name="contact" method="POST" data-netlify="true">
-        <p>
-            <label>Name:<input type="name" value="Enter your name" /></label>
-        </p>
-        <p>
-            <label>Email:<input type="email" value="Enter your email" /></label>
-        </p>
-        <p>
-            <label>Telephone:<input type="tel" value="+31" /></label>
-        </p>
-        <p>
-            <label>Age:<input type="number" /></label>
-        </p>
-        <p>
-            <label>Date of birth:<input type="date" /></label>
-        </p>
-        <p>
-            Please select gender:
-            <input type="radio" name="gender" value="male"> Male
-            <input type="radio" name="gender" value="female"> Female
-        </p>
-        <p> Please select favorite cuisine:
-            <input type="checkbox" name="cuisine" value="French"> French
-            <input type="checkbox" name="cuisine" value="Italian"> Italian
-            <input type="checkbox" name="cuisine" value="Spanish"> Spanish
-            <input type="checkbox" name="cuisine" value="Arabic"> Arabic
-        </p>
-        <p><label for="colorpicker">Favorite apron color:</label>
-            <input type="color" id="colorpicker" value="#0000ff">
-        </p>
-        <p>
-            <label>Please write your biography:<textarea name="Biography"></textarea></label>
-        </p>
-        <p>
-            <label>Upload your latest recipe<input type="file" /></label>
-        </p>
-        <p>
-            <label>Website:<input type="url" value="Please fill your website" /> </label>
-        </p>
-        <p>
-            <label>Comments:<textarea name="Any comments"></textarea></label>
-        </p>
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
-    </form>
+<body class="header">
+    <main>
+        <img src="Back ground.jpg" height="200">
+        <h1>Subscribe us!</h1>
+        <h8>Click here to go back to <a href="index.html">Index page</a></h8>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Name:<input type="name" value="Enter your name" /></label>
+            </p>
+            <p>
+                <label>Email:<input type="email" value="Enter your email" /></label>
+            </p>
+            <p>
+                <label>Telephone:<input type="tel" value="+31" /></label>
+            </p>
+            <p>
+                <label>Age:<input type="number" /></label>
+            </p>
+            <p>
+                <label>Date of birth:<input type="date" /></label>
+            </p>
+            <p>
+                Please select gender:
+                <input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female
+            </p>
+            <p> Please check if human:
+                <input type="checkbox" name="humancheck" value="Human"> Human
+                <input type="checkbox" name="humancheck" value="Robot"> Robot
+            </p>
+            <p>
+                <label>Comments:<textarea name="Any comments"></textarea></label>
+            </p>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </main>
 </body>
 
 </html>
